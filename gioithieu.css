@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    height: auto;
+    background-color: 	#69e0ca;
+}
+.header{
+    height: 100px;
+    background-color: #E6E6FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 30%;
+    margin-left: 15px;
+}
+.logo img{
+    max-width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul li{
+    line-height: 100px;
+    list-style-type: none;
+    margin-right: 15px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    padding: 0 24px;
+}
+.menu ul li:hover a{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.page-title{
+    background-color: #f9d529;
+    position: relative;
+    display: inline-block;
+    color: black;
+    min-width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.banner{
+    margin: 0 15px;
+}
+
+.banner img{
+    width: 100%;
+    height: 465px;
+}
+
+.element{
+  text-align: center;
+  color: #8e104d;
+}
+.phan1 {
+  padding: 20px;
+  background-color: #69e0ca;
+  color: #cf4715;
+}
+
+.rowmot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cot1 {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+}
+
+.anhphan1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.phan2 {
+  padding: 50px;
+  text-align: center;
+  color: #295af9;
+}
+
+.rowhai {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cothai {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+.anhcothai img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.phan3 {
+  padding: 50px;
+  text-align: center;
+}
+
+.rowba {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cotba {
+  flex-basis: 48%;
+}
+
+.cotba h3 {
+  font-size: 1.8rem;
+  color: #0066cc;
+  margin-bottom: 20px;
+}
+
+.cotba p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.anhcotba img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #E6E6FA;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logoo {
+    flex-basis: 30%;
+  }
+  
+  .logoo img {
+    max-width: 100%;
+  }
+  
+  .gioithieu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .gioithieu-item {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .gioithieu-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .gioithieu-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .mxh {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .mxh:hover {
+    text-decoration: underline;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    height: auto;
+    background-color: 	#F0FFFF;
+}
+.header{
+    height: 100px;
+    background-color: #E6E6FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 30%;
+    margin-left: 15px;
+}
+.logo img{
+    max-width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul li{
+    line-height: 100px;
+    list-style-type: none;
+    margin-right: 15px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    padding: 0 24px;
+}
+.menu ul li:hover a{
+    background-color: black;
+    color: whitesmoke;
+}
+.banner{
+    margin: 0 15px;
+}
+
+.banner img{
+    width: 100%;
+    height: 465px;
+}
+hr{
+    width: 100%;
+    margin: 15px 0;
+}
+#chuky{
+    font-weight: bold;
+}
+.slogan{
+    width: 40%;
+    margin-left: 70px;
+}
+.slogan h3{
+    font-weight: 500;
+}
+.subphan1{
+    width: 40%;
+    margin-right: 70px;
+}
+.subphan1 img{
+    width: 100%;
+}
+.phan1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phan2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 71px;
+}
+.subphan2{
+    width: 40%;
+}
+.subphan2 img{
+    width: 100%;
+}
+.phan3{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+.anhkinhnghiem{
+    margin: 10px 15px;
+}
+.item{
+    width: 50%;
+}
+.phan4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 15px;
+}
+.phan4 .phan4-item{
+    width: 23%;
+}
+.phan4 .phan4-item img{
+    width: 100%;
+}
+.phan5{
+    margin: 20px 5px;
+}
+#anhcongnghe{
+    width: 100%;
+    height: 411px;
+}
+#list{
+    text-align: center;
+}
+#anhkinhnghiem{
+    width: 100%;
+    height: 400px;
+}
+.phan6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 211px;
+}
+.phan6-item{
+    text-align: center;
+}
+footer {
+    background-color: #E6E6FA;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logoo {
+    flex-basis: 30%;
+  }
+  
+  .logoo img {
+    max-width: 100%;
+  }
+  
+  .gioithieu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .gioithieu-item {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .gioithieu-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .gioithieu-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .mxh {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .mxh:hover {
+    text-decoration: underline;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
